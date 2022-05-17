@@ -1,0 +1,30 @@
+.logo {
+  display: block;
+  max-height: 100px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+}
+
+#navigation {
+  text-align: center;
+  background-color: green;
+}
+
+.navigation {
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 50%;
+}
+
+.forest {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 300px;
+  padding-top: 15px;
+}

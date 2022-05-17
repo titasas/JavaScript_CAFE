@@ -1,0 +1,63 @@
+.navigation {
+  background-color: #ddd;
+  padding: 60px 50px 60px 50px;
+  border: 5px solid black;
+  border-radius: 15px;
+}
+.homepage {
+  margin-left: 100px;
+}
+a {
+  background-color: orangered;
+  padding: 30px;
+  text-decoration: none;
+  color: #000;
+  border-radius: 15px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+a:hover {
+  background-color: #ff7440;
+  color: #ddd;
+}
+a:active {
+  background-color: #cc3700;
+}
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: goldenrod;
+  text-shadow: 2px 2px #8b8000;
+}
+h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
+#arrow {
+  font-size: 100px;
+  margin: 0;
+  padding-left: 80px;
+}
+#css {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: greenyellow;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 0.5em;
+  text-decoration-color: aquamarine;
+}
+.s {
+  color: red;
+}
+.m {
+  color: blue;
+}
+.meme {
+  margin-top: 10px;
+}
+p {
+  max-width: 300px;
+}

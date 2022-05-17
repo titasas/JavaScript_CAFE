@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index-style.css" />
+  </head>
+  <body>
+    <div id="main">
+    <h1>Payment form</h1>
+    <h5>Required fields are followed by <abbr title="This field must be filled">*</abbr></label></h5>
+    <form action="index.html" method="post">
+      <h2>Contact information</h2>
+      <div class="contact">
+      <fieldset>
+        <legend>Title</legend>
+        <div>
+          <label for="mr">Mister</label>
+          <input type="radio" id="mr" name="gender" />
+          <label for="mrs">Miss</label>
+          <input type="radio" id="mrs" name="gender" />
+        </div>
+      </fieldset>
+      <div>
+        <label for="name">Name: <abbr title="This field must be filled">*</abbr></label>
+        <input type="name" id="name" name="name" />
+      </div>
+      <div>
+        <label for="email"
+          >E-mail: <abbr title="This field must be filled">*</abbr></label>
+        <input type="email" id="email" name="email" />
+      </div>
+      <div>
+        <label for="pwd"
+          >Password: <abbr title="This field must be filled">*</abbr></label>
+        <input type="password" id="pwd" name="password" />
+      </div>
+      </div>
+      <h2>Payment information</h2>
+      <div>
+        <label for="card">Card type</label>
+        <input type="text" id="card" name="cardtype" list="cardtypes" />
+        <datalist id="cardtypes">
+          <option>Visa</option>
+          <option>Maestro</option>
+          <option>MasterCard</option>
+        </datalist>
+      </div>
+      <div>
+        <label for="cardnr">Card Number: <abbr title="This field must be filled">*</abbr></label>
+        <input type="number" id="cardnr" name="cardnumber">
+      </div>
+      <div>
+        <label for="date">Expiration date: <abbr title="This field must be filled">*</abbr></label>
+        <input type="text" id="date" name="date">
+      </div>
+      <div class="button">
+        <button type="submit">Validate the payment</button>
+      </div>
+    </form>
+    </div>
+  </body>
+</html>

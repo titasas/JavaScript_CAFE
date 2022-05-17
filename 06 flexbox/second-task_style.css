@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  width: 500px;
+  height: 250px;
+}
+
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  width: 50%;
+  height: 100%;
+}
+
+.item {
+  color: white;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.orange {
+  background-color: orangered;
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    flex-direction: column;
+    height: calc(200vw);
+  }
+}
