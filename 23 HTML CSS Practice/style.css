@@ -1,0 +1,100 @@
+html * {
+  font-family: Inter, sans-serif;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1100px;
+  background-color: white;
+  padding: 55px 100px;
+  gap: 40px;
+}
+
+.container__title-box {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.container__card-box {
+  display: flex;
+  flex-grow: 2;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.container__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #2d3436;
+}
+
+.container__subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2d3436;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-grow: 1;
+  gap: 20px;
+}
+
+.card__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.support {
+  background-color: rgb(207, 104, 121);
+}
+.sales {
+  background-color: rgb(52, 52, 216);
+}
+.driven {
+  background-color: rgb(182, 56, 255);
+}
+.swap {
+  background-color: rgb(56, 153, 56);
+}
+
+.card__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2d3436;
+}
+
+.card__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #2d3436;
+}
+
+.card__button {
+  background-color: white;
+  border: 1px solid rgb(184, 184, 184);
+  border-radius: 10px;
+  padding: 15px 12px;
+  color: rgb(132, 66, 255);
+  font-weight: 600;
+}

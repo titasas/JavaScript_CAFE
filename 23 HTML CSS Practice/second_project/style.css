@@ -1,0 +1,144 @@
+html * {
+  font-family: Inter, sans-serif;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 50px 100px;
+}
+
+.container__heading-title {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 77px;
+  color: #2d3436;
+  text-align: center;
+}
+
+.container__heading-subtitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #adadad;
+  text-align: center;
+}
+
+.subtitle-blue {
+  color: rgb(98, 25, 233);
+}
+
+.cards__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.cards__name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  color: #6c5ce7;
+}
+
+.cards__price {
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 15px;
+  color: #2d3436;
+}
+
+.price_big {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.cards__list-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 50px;
+}
+
+.cards__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cards__list-component {
+  display: flex;
+  gap: 6px;
+}
+
+.checkmark {
+  background-color: lightgray;
+  border-radius: 50%;
+}
+
+.yellow-check {
+  background-color: coral;
+}
+
+.green-check {
+  background-color: cyan;
+}
+
+.individual-best {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cards__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6c5ce7;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  border-radius: 10px;
+  padding: 10px 0px;
+  border: 1px solid lightgray;
+}
+
+.blue-button {
+  color: white;
+  background-color: #6c5ce7;
+}
+
+.card__main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.best {
+  border: 1px solid #2d3436;
+  padding: 5px;
+  border-radius: 15px;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 15px;
+  color: #2d3436;
+}
